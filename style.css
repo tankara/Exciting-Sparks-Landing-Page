@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+
+    font-family: marmelade;
+    font-size: 50px;
+    color: white;
+    padding: 25px;
+
+}
+
+.navbar{
+
+    display: flex;
+    background-color: #c9594c;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    font-family: marmelade;
+    justify-content: space-around;
+
+}
+
+.list-item > a{
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.list-item > a:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  #c9594c;
+    transition: 0.7s;
+    border-radius: 15px;
+}
+
+.fa-brands {
+
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.fa-brands:hover{
+
+    cursor: pointer;
+    background-color:white;
+    color:  #c9594c;
+    transition: 0.7s;
+    border-radius: 15px;
+    
+}
+
+.socials{
+    margin-right: 50px;
+}
+.fa-solid{
+
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-solid:hover{
+    background-color: #ffffff;
+    color: #c9594c;
+    transition: 0.7s;
+    border-radius: 15px;
+}
+    
+.hero{
+
+    background-color: #ffd700;
+    height: 700px;
+}
+
+.hero > img {
+
+    width: 400px;
+    margin-left:1100px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.square {
+    height:400px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+    top: 300px;
+    left: 1050px;
+    transform: rotate(20deg);
+}
+.hero-motto{
+    font-family: marmelade;
+    font-size: 80px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.hero-paragraph{
+    font-family: marmelade;
+    font-size:20px;
+    position:absolute;
+    top:450px;
+    left:50px;
+}
+
+.hero-btn{
+    background-color: pink;
+    border-radius: 15px;
+    font-family: marmelade;
+    font-size: 30px;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border: 3px solid pink;
+    border-radius: 15px;
+}
+
+.hero-btn:hover{
+    background-color: #c9594c;
+    color: white;
+    transition: 0.7s;
+}
+
+.hero-btn2{
+    border-radius: 15px;
+    font-family: marmelade;
+    font-size: 30px;
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    text-decoration: none;
+    padding: 15px;
+    border: 3px solid #c9594c;
+    border-radius: 15px;
+}
+
+.hero-btn2:hover{
+    background-color: #c9594c;
+    color: white;
+    transition: 0.7s;
+
+}
+
+
+.products {
+
+    background-color: #c9594c;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+
+    background-color: #ffd700;
+    height: 600px;
+    width: 475px;
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+.card-image{
+    width: 450px;
+    margin: 10px;
+    border: 5px solid;
+    border-color: #c9594c;
+    background-color: #ffffff ;
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    height: 465px;
+}
+
+
+.card-image>img{
+    object-fit: fill;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.card-title , .card-text{
+
+    font-family: marmelade;
+    font-size: 25px;
+    color: #c9594c;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: marmelade;
+    src: url(src/Marmelad-Regular.ttf);
+  }
